@@ -1,89 +1,64 @@
+aid: nunit
 name: NUnit
-description: NUnit is a unit-testing framework for all .NET languages. Initially ported from JUnit, the current production release has been completely rewritten with many new features and support for a wide range of .NET platforms.
-image: https://nunit.org/img/nunit.svg
-url: https://nunit.org
-created: '2024'
-modified: '2024'
+description: >-
+  NUnit is a unit-testing framework for all .NET languages. Initially ported
+  from JUnit, the current production release has been completely rewritten with
+  many new features and support for a wide range of .NET platforms.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- testing
-- unit testing
-- .NET
-- C#
-- framework
-- TDD
-- open source
+  - Testing
+  - Unit Testing
+  - .NET
+  - C#
+  - Framework
+  - TDD
+  - Open Source
+url: https://raw.githubusercontent.com/api-evangelist/nunit/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis:
-- name: NUnit Framework API
-  description: The core NUnit testing framework API for writing and executing unit tests in .NET applications
-  image: https://nunit.org/img/nunit.svg
-  humanURL: https://docs.nunit.org/
-  baseURL: https://www.nuget.org/packages/NUnit
-  tags:
-  - testing
-  - assertions
-  - attributes
-  - test runners
-  properties:
-  - type: Documentation
-    url: https://docs.nunit.org/articles/nunit/intro.html
-  - type: API Documentation
-    url: https://docs.nunit.org/api/
-  - type: Getting Started
-    url: https://docs.nunit.org/articles/nunit/getting-started.html
-  - type: NuGet Package
-    url: https://www.nuget.org/packages/NUnit
-- name: NUnit Console Runner
-  description: Console runner for executing NUnit tests from command line
-  image: https://nunit.org/img/nunit.svg
-  humanURL: https://docs.nunit.org/articles/nunit/running-tests/Console-Runner.html
-  baseURL: https://www.nuget.org/packages/NUnit.ConsoleRunner
-  tags:
-  - console
-  - test runner
-  - command line
-  - CI/CD
-  properties:
-  - type: Documentation
-    url: https://docs.nunit.org/articles/nunit/running-tests/Console-Runner.html
-  - type: NuGet Package
-    url: https://www.nuget.org/packages/NUnit.ConsoleRunner
-  - type: Command Line Reference
-    url: https://docs.nunit.org/articles/nunit/running-tests/Console-Command-Line.html
-- name: NUnit3 Test Adapter
-  description: Test adapter for running NUnit tests in Visual Studio and other compatible test runners
-  image: https://nunit.org/img/nunit.svg
-  humanURL: https://docs.nunit.org/articles/vs-test-adapter/Index.html
-  baseURL: https://www.nuget.org/packages/NUnit3TestAdapter
-  tags:
-  - Visual Studio
-  - test adapter
-  - IDE integration
-  - VSTest
-  properties:
-  - type: Documentation
-    url: https://docs.nunit.org/articles/vs-test-adapter/Index.html
-  - type: NuGet Package
-    url: https://www.nuget.org/packages/NUnit3TestAdapter
-  - type: GitHub Repository
-    url: https://github.com/nunit/nunit3-vs-adapter
+  - aid: nunit:nunit-framework-api
+    name: NUnit Framework API
+    description: >-
+      The core NUnit testing framework API for writing and executing unit tests
+      in .NET applications.
+    humanURL: https://docs.nunit.org/
+    tags:
+      - Testing
+      - Assertions
+      - Attributes
+    properties:
+      - type: Documentation
+        url: https://docs.nunit.org/articles/nunit/intro.html
+      - type: Getting Started
+        url: https://docs.nunit.org/articles/nunit/getting-started.html
+      - type: Reference
+        url: https://docs.nunit.org/api/
+  - aid: nunit:nunit-console-runner
+    name: NUnit Console Runner
+    description: Console runner for executing NUnit tests from command line.
+    humanURL: https://docs.nunit.org/articles/nunit/running-tests/Console-Runner.html
+    tags:
+      - Console
+      - Test Runner
+    properties:
+      - type: Documentation
+        url: https://docs.nunit.org/articles/nunit/running-tests/Console-Runner.html
 common:
-- type: GitHub Organization
-  url: https://github.com/nunit
-- type: Website
-  url: https://nunit.org
-- type: Documentation
-  url: https://docs.nunit.org
-- type: Blog
-  url: https://nunit.org/news/
-- type: Community
-  url: https://nunit.org/community/
-- type: License
-  url: https://docs.nunit.org/articles/nunit/license.html
-- type: Release Notes
-  url: https://docs.nunit.org/articles/nunit/release-notes/
-- type: Twitter
-  url: https://twitter.com/nunit
+  - type: Website
+    url: https://nunit.org
+  - type: Documentation
+    url: https://docs.nunit.org
+  - type: GitHub Organization
+    url: https://github.com/nunit
+  - type: Blog
+    url: https://nunit.org/news/
+  - type: Community
+    url: https://nunit.org/community/
+  - type: Change Log
+    url: https://docs.nunit.org/articles/nunit/release-notes/
 maintainers:
-- name: NUnit Community
-  email: charlie@nunit.com
-  twitter: https://twitter.com/nunit
+  - FN: Kin Lane
+    email: kin@apievangelist.com
