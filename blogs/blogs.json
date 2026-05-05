@@ -1,0 +1,13 @@
+{
+  "repo": "nunit",
+  "feeds": [
+    {
+      "source": "https://nunit.org/news/",
+      "feed_url": "https://nunit.org/rss.xml",
+      "saved": 10,
+      "title": "NUnit.org"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:32:47Z"
+}
