@@ -96,6 +96,8 @@ apis:
       - type: Source Code
         url: https://github.com/nunit/nunit.analyzers
 common:
+  - type: DomainSecurity
+    url: security/nunit-domain-security.yml
   - type: Website
     url: https://nunit.org
   - type: Documentation
