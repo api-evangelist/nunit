@@ -36,7 +36,7 @@ tags:
   - .NET
   - C#
   - Framework
-  - Open-Source
+  - Open Source
   - TDD
   - Testing
   - Unit Testing
@@ -48,6 +48,7 @@ tags_raw:
   - TDD
   - Testing
   - Unit Testing
+  - Open-Source
 url: https://raw.githubusercontent.com/api-evangelist/nunit/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-04-28'
