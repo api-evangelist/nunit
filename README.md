@@ -1,4 +1,4 @@
-# NUnit (nunit)
+# NUnit
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,91 +66,106 @@
 
 NUnit is a unit-testing framework for all .NET languages. Initially ported from JUnit, the current production release has been completely rewritten with many new features and support for a wide range of .NET platforms. NUnit is a software testing framework, not a remote HTTP API service.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/nunit/refs/heads/main/apis.yml)
+**Areas:** .NET · C# · Framework · Open Source · TDD · Testing · Unit Testing
 
-## Scope
+## NUnit on APIs.io
 
-- **Type:** Index
-- **Position:** Producer
-- **Access:** 1st-Party
+Everything profiled for NUnit is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nunit/](https://apis.io/providers/nunit/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (4)
 
- - .NET, C#, Framework, Open Source, TDD, Testing, Unit Testing
+- [NUnit Framework API](https://apis.io/apis/nunit/nunit-framework-api/) — The core NUnit testing framework programming API for writing and executing unit tests in .NET applications. Provides assertions, attributes, and lifecycle…
+- [NUnit Console Runner](https://apis.io/apis/nunit/nunit-console-runner/) — Console runner for executing NUnit tests from the command line, enabling automation in build pipelines and CI/CD systems.
+- [NUnit3 Test Adapter](https://apis.io/apis/nunit/nunit3-test-adapter/) — Test adapter for running NUnit tests in Visual Studio, dotnet test, and other VSTest-compatible test runners.
+- [NUnit Analyzers](https://apis.io/apis/nunit/nunit-analyzers/) — Roslyn-based analyzers for NUnit that detect common test authoring mistakes and suggest fixes at compile time.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### NUnit Framework API
-The core NUnit testing framework programming API for writing and executing unit tests in .NET applications. Provides assertions, attributes, and lifecycle hooks consumed via the NUnit NuGet package.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://docs.nunit.org/](https://docs.nunit.org/)
+- [Nunit Domain Security](https://apis.io/security/nunit/nunit-domain-security/)
 
-#### Tags:
- - Assertions, Attributes, Testing
+#### Plans and pricing (1)
 
-#### Properties
-- [Documentation](https://docs.nunit.org/articles/nunit/intro.html)
-- [Getting Started](https://docs.nunit.org/articles/nunit/getting-started.html)
-- [Reference](https://docs.nunit.org/api/)
-- [NuGet Package](https://www.nuget.org/packages/NUnit)
-- [Source Code](https://github.com/nunit/nunit)
+Published plans, tiers and prices.
 
-### NUnit Console Runner
-Console runner for executing NUnit tests from the command line, enabling automation in build pipelines and CI/CD systems.
+- [Nunit Plans Pricing](https://apis.io/plans/nunit/nunit-plans-pricing/)
 
-**Human URL:** [https://docs.nunit.org/articles/nunit/running-tests/Console-Runner.html](https://docs.nunit.org/articles/nunit/running-tests/Console-Runner.html)
+#### Rate limits (1)
 
-#### Tags:
- - Console, Test Runner, CLI
+Published request limits.
 
-#### Properties
-- [Documentation](https://docs.nunit.org/articles/nunit/running-tests/Console-Runner.html)
-- [Command Line Reference](https://docs.nunit.org/articles/nunit/running-tests/Console-Command-Line.html)
-- [NuGet Package](https://www.nuget.org/packages/NUnit.ConsoleRunner)
+- [Nunit Rate Limits](https://apis.io/rate-limits/nunit/nunit-rate-limits/)
 
-### NUnit3 Test Adapter
-Test adapter for running NUnit tests in Visual Studio, dotnet test, and other VSTest-compatible test runners.
+#### FinOps (1)
 
-**Human URL:** [https://docs.nunit.org/articles/vs-test-adapter/Index.html](https://docs.nunit.org/articles/vs-test-adapter/Index.html)
+What the API costs to run, by operation.
 
-#### Tags:
- - Visual Studio, Test Adapter, VSTest
+- [Nunit Finops](https://apis.io/finops/nunit/nunit-finops/)
 
-#### Properties
-- [Documentation](https://docs.nunit.org/articles/vs-test-adapter/Index.html)
-- [NuGet Package](https://www.nuget.org/packages/NUnit3TestAdapter)
-- [Source Code](https://github.com/nunit/nunit3-vs-adapter)
+## Where to find this API
 
-### NUnit Analyzers
-Roslyn-based analyzers for NUnit that detect common test authoring mistakes and suggest fixes at compile time.
-
-**Human URL:** [https://docs.nunit.org/articles/nunit-analyzers/NUnit-Analyzers.html](https://docs.nunit.org/articles/nunit-analyzers/NUnit-Analyzers.html)
-
-#### Tags:
- - Analyzers, Roslyn, Code Quality
-
-#### Properties
-- [Documentation](https://docs.nunit.org/articles/nunit-analyzers/NUnit-Analyzers.html)
-- [NuGet Package](https://www.nuget.org/packages/NUnit.Analyzers)
-- [Source Code](https://github.com/nunit/nunit.analyzers)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://nunit.org)
 - [Documentation](https://docs.nunit.org)
-- [GitHub Organization](https://github.com/nunit)
+- [Changelog](https://docs.nunit.org/articles/nunit/release-notes/)
 - [Blog](https://nunit.org/news/)
-- [Community](https://nunit.org/community/)
-- [Change Log](https://docs.nunit.org/articles/nunit/release-notes/)
-- [License](https://docs.nunit.org/articles/nunit/license.html)
+- [GitHub](https://github.com/nunit)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 12.1** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/nunit/](https://apis.io/providers/nunit/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for NUnit: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/nunit/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
